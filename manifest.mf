@@ -1,0 +1,2 @@
+$cat manifest.mf
+Main-class: start.Fezzed
