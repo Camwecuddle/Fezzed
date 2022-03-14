@@ -49,7 +49,7 @@ public class Fezzed {
       this.input = System.console().readLine();
       this.inputArray = new ArrayList<String>();
       this.images = new String[inputArray.size()];
-      this.fezletters = new File("/Users/camronvick/Desktop/Programming/Fezzed/fezletters");
+      this.fezletters = new File("../fezletters");
   }
 
   public void parseInput() {
@@ -196,7 +196,7 @@ public class Fezzed {
 
   public void loadImages(){
     images = fezletters.list();
-    System.out.println(images[0]);
+    // System.out.println(images[0]);
   }
 
   public static void main(String[] args) {
